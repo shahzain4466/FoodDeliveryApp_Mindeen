@@ -1,0 +1,2 @@
+export const EXTRA_FOOD_DATA = 'EXTRA_FOOD_DATA';
+export const EXTRA_SAUCES = 'EXTRA_SAUCES';
