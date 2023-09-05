@@ -1,9 +1,11 @@
-import { Image, StyleSheet, Text, TouchableOpacity, View, PixelRatio, Dimensions } from 'react-native'
-import React from 'react'
+import { Image, StyleSheet, Text, TouchableOpacity, View, PixelRatio, Dimensions, Alert } from 'react-native'
+import React, { useState } from 'react'
 import MapView from 'react-native-maps';
 import Images from '../Assets/Images';
 import Colors from '../Utiles/Colors';
 import Button from '../Components/Button';
+import Swipeable from 'react-native-swipeable';
+
 const fontScale = PixelRatio.getFontScale();
 const getFontSize = (size: number) => size / fontScale;
 
@@ -17,10 +19,15 @@ const RPW = (percentage: number) => {
   return (percentage / 100) * screenWidth;
 };
 
+
 const Location = ({ navigation }: any) => {
+  const leftContent = <></>;
+  const rightButtons = [
+    <Text style={styles.cartText}>{''}</Text>
+  ];
+
   return (
     <View style={{ flex: 1 }}>
-
       <MapView
         style={{ flex: 1 }}
         initialRegion={{
@@ -36,17 +43,23 @@ const Location = ({ navigation }: any) => {
         buttonImage={Images.BackIcon}
         buttonStyle={styles.buttonImageStyle}
       />
-      <TouchableOpacity
-        style={[styles.cartButtonContainer, { width: RPW(70), }]}>
-        <View style={styles.buttonImage}>
-          <Image
-            source={Images.forword}
-            style={{ width: 16, height: 17 }}
-          />
-        </View>
+
+      <View
+        style={[styles.cartButtonContainer, { width: RPW(80), }]}>
+        <Swipeable
+          style={{ maxWidth: '75%' }}
+          onLeftActionRelease={() => Alert.alert("😉 😉")}
+          leftContent={leftContent}>
+          <TouchableOpacity style={styles.buttonImage}>
+            <Image
+              source={Images.forword}
+              style={{ width: 16, height: 17 }}
+            />
+          </TouchableOpacity>
+        </Swipeable>
         <Text style={styles.cartText}>{'Reached Drop Location '}</Text>
-      </TouchableOpacity>
-    </View>
+      </View >
+    </View >
   )
 }
 
@@ -54,7 +67,7 @@ export default Location
 
 const styles = StyleSheet.create({
   cartButtonContainer: {
-    height: 53,
+    height: 60,
     backgroundColor: Colors.SplashBackgroundColor,
     borderRadius: 29,
     flexDirection: "row",
@@ -62,13 +75,15 @@ const styles = StyleSheet.create({
     paddingHorizontal: 5,
     alignSelf: 'center',
     position: "absolute",
-    bottom: 20
+    bottom: 20,
   },
   cartText: {
     fontWeight: '600',
     fontSize: getFontSize(15),
     color: Colors.White,
-    marginLeft: 15
+    marginLeft: 15,
+    position: "absolute",
+    right: 25
   },
   buttonMainContainer: {
     backgroundColor: Colors.White,
@@ -87,8 +102,8 @@ const styles = StyleSheet.create({
     height: 9.5
   },
   buttonImage: {
-    width: 40,
-    height: 40,
+    width: 67,
+    height: 52,
     backgroundColor: Colors.White,
     borderRadius: 100,
     justifyContent: 'center',

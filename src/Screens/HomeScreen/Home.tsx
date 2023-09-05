@@ -1,10 +1,11 @@
-import { Dimensions, FlatList, Image, SafeAreaView, ScrollView, Text, TouchableOpacity, View } from 'react-native'
+import { Dimensions, FlatList, Image, SafeAreaView, ScrollView, Text, TouchableOpacity, View, Alert } from 'react-native'
 import React, { useState } from 'react'
 import Images from '../../Assets/Images'
 import Button from '../../Components/Button'
 import styles from './styles';
 import { useSelector } from 'react-redux';
 import Colors from '../../Utiles/Colors';
+import Swipeable from 'react-native-swipeable';
 
 const screenHeight = Dimensions.get('window').height;
 const screenWidth = Dimensions.get('window').width;
@@ -31,6 +32,13 @@ const Home = ({ navigation }: any) => {
       setCount(count - 1);
     }
   };
+
+  const leftContent =
+    [
+      <View></View>
+    ]
+  const rightButtons = [<View></View>
+  ]
 
   const toggleItemSelection = (itemId: string) => {
     if (selectedItems.includes(itemId)) {
@@ -178,18 +186,23 @@ const Home = ({ navigation }: any) => {
           keyExtractor={(item, index) => `${item.id} , ${index}`}
         />
       </ScrollView>
-      <TouchableOpacity
-        onPress={() => navigation.navigate('Location')}
-        style={[styles.cartButtonContainer, { width: RPW(50), }]}>
-        <View style={styles.buttonImage}>
-          <Image
-            source={Images.Cart}
-            style={{ width: 16, height: 17 }}
-          />
-        </View>
+      <View style={[styles.cartButtonContainer, { width: RPW(50), }]}>
+        <Swipeable
+          style={{maxWidth: '75%'}}
+          onLeftActionRelease={() => navigation.navigate('Location')}
+          leftContent={leftContent} 
+        >
+          <TouchableOpacity style={styles.buttonImage}>
+            <Image
+              source={Images.Cart}
+              style={{ width: 16, height: 17 }}
+            />
+          </TouchableOpacity>
+        </Swipeable>
         <Text style={styles.cartText}>{'Add to cart '}</Text>
-      </TouchableOpacity>
-    </SafeAreaView>
+      </View>
+
+    </SafeAreaView >
   )
 }
 

@@ -206,7 +206,9 @@ export default StyleSheet.create({
         fontWeight: '600',
         fontSize: getFontSize(15),
         color: Colors.White,
-        marginLeft: 15
+        marginLeft: 15,
+        position: 'absolute',
+        right: 40
     },
     cartButtonContainer: {
         height: 53,
@@ -225,6 +227,6 @@ export default StyleSheet.create({
         backgroundColor: Colors.White,
         borderRadius: 100,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
     }
 })
