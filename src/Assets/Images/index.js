@@ -1,0 +1,35 @@
+const Images = {
+    crossIcon: require('./crossicon.png'),
+    Resturentimg: require('./Resturentimg.png'),
+    item1img: require('./item1img.png'),
+    item2img: require('./item2img.png'),
+    Filterimg: require('./Filterimg.png'),
+    visalogo: require('./visalogo.png'),
+    Delete: require('./Delete.png'),
+    Card: require('./Card.png'),
+    Vector: require('./Vector.png'),
+    CVVinfo: require('./CVVinfo.png'),
+    DummyImage: require('./DummyImage.jpg'),
+    FromGallary: require('./FromGallary.png'),
+    Cameralogo: require('./Cameralogo.png'),
+    Invite: require('./Invite.png'),
+    Cocacola: require('./Cocacola.png'),
+    Pepsi:require('./Pepsi.png'),
+    Pizza: require('./Pizza.png'),
+    Noteimg: require('./noteimg.png'),
+    paypalLogo:  require('./paypalLogo.png'),
+    IconLocation : require('./IconLocation.png'),
+    vegitables: require('./Vegitables.png'),
+    vegitabletop: require('./vegitabletop.png'),
+    kabab: require('./kabab.png'),
+    photoProfile: require('./PhotoProfile.png'),
+    mapImg: require('./map.png'),
+    locationImg : require('./locationimg.png'),
+    MasterLogo : require('./master.png'),
+    Group : require('./Group.png'),
+    pana : require('./pana.png'),
+
+
+}
+
+export default Images;

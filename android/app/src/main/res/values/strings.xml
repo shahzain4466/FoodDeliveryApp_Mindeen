@@ -1,4 +1,3 @@
 <resources>
-    <string name="app_name">FoodDelivery</string>
-  <!-- <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDmojQImNP7prk7G8iHHLyZVz1-4b5N4Ws</string> -->
+    <string name="app_name">LB-Client</string>
 </resources>

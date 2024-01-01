@@ -1,0 +1,241 @@
+import {StyleSheet} from 'react-native';
+import theme from '../../../themes/theme';
+import {scale} from '../../../../utils/scale';
+
+const styles = StyleSheet.create({
+  header: {
+    padding: theme.spacing.padding.p5,
+  },
+  mainContainer: {
+    paddingHorizontal: theme.spacing.padding.p5,
+    paddingBottom: theme.spacing.padding.max,
+  },
+  nameTitle: {
+    fontFamily: theme.typography.type.med,
+    fontSize: scale(18),
+    lineHeight: scale(27),
+    textAlign: 'center',
+    color: theme.palette.GrayDark,
+  },
+  rattingview: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  ratting: {
+    ...theme.typography.common.bodyr,
+    fontWeight: '600',
+    color: theme.palette.DarkBlack,
+    marginLeft: scale(6),
+  },
+  totalratting: {
+    ...theme.typography.common.bodyr,
+    fontWeight: '400',
+    color: theme.palette.GrayPlaceHolder,
+    marginLeft: scale(6),
+  },
+  reviewbtn: {
+    ...theme.typography.common.h3r,
+    color: theme.palette.PrimaryDeep,
+    textDecorationLine: 'underline',
+    marginLeft: scale(9),
+  },
+  DeliveryCharges: {
+    flexDirection: 'row',
+    marginTop: scale(10),
+    marginLeft: scale(15),
+    alignItems: 'center',
+  },
+  DeliveryTxt: {
+    color: theme.palette.PrimaryDeep,
+    fontSize: scale(15),
+    fontWeight: '500',
+    textDecorationLine: 'underline',
+  },
+  chargesTxt: {
+    color: theme.palette.black,
+  },
+  price: {
+    width: '30%',
+  },
+  priceTxt: {
+    fontSize: scale(24),
+    lineHeight: scale(36),
+    color: 'red',
+    fontWeight: '600',
+  },
+
+  handlequantity: {
+    width: '40%',
+    justifyContent: 'flex-end',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  removebtn: {
+    width: scale(30),
+    height: scale(30),
+    borderRadius: scale(15),
+    borderColor: theme.palette.PrimaryDeep,
+    borderWidth: scale(1),
+    alignItems: 'center',
+  },
+  addbtn: {
+    width: scale(30),
+    height: scale(30),
+    borderRadius: scale(15),
+    backgroundColor: theme.palette.PrimaryDeep,
+    alignItems: 'center',
+  },
+  negativebtn: {
+    color: theme.palette.PrimaryDeep,
+    // fontSize:scale(40)
+  },
+  positivebtn: {
+    color: theme.palette.white,
+  },
+  numtxt: {
+    marginHorizontal: scale(20),
+    ...theme.typography.common.bodyr,
+    color: theme.palette.DarkBlack,
+  },
+  Details: {
+    ...theme.typography.common.bodyr,
+    fontWeight: '400',
+    color: theme.palette.Graydesctxt,
+    marginTop: scale(8),
+  },
+  choose: {
+    ...theme.typography.common.h1a,
+    fontWeight: '600',
+    color: theme.palette.DarkBlack,
+    marginTop: scale(24),
+  },
+  itemView: {
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  touchable: {
+    borderWidth: 1,
+    borderColor: theme.palette.PrimaryDeep,
+    borderRadius: theme.radius.rounded,
+    padding: theme.spacing.padding.p7,
+    marginTop: theme.spacing.margin.m5,
+    marginRight: theme.spacing.margin.m2,
+  },
+  suggest: {
+    fontSize: theme.typography.size.heading.h5,
+    color: theme.palette.GrayPlaceHolder,
+    paddingLeft: theme.spacing.padding.p7,
+    paddingRight: theme.spacing.padding.p7,
+    fontFamily: theme.typography.type.reg,
+  },
+  Addcart: {
+    position: 'absolute',
+    flexDirection: 'row',
+    width: scale(167),
+    height: scale(55),
+    bottom: scale(10),
+    backgroundColor: theme.palette.PrimaryDeep,
+    alignSelf: 'center',
+    borderRadius: scale(29),
+    // justifyContent: 'center',
+    alignItems: 'center',
+  },
+  cartButtonContainer: {
+    height: scale(55),
+    width: scale(167),
+    backgroundColor: theme.palette.PrimaryDeep,
+    borderRadius: scale(29),
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: scale(5),
+    alignSelf: 'center',
+    position: 'absolute',
+    bottom: scale(20),
+  },
+  cartbtn: {
+    backgroundColor: theme.palette.white,
+    marginLeft: scale(5),
+    width: scale(45),
+    height: scale(45),
+    borderRadius: scale(22.5),
+  },
+  addcartTxt: {
+    ...theme.typography.common.h3r,
+    color: theme.palette.white,
+    fontWeight: 'bold',
+  },
+  cartTextContainer: {
+    position: 'absolute',
+    right: scale(35),
+  },
+  showaddmsg: {
+    position: 'absolute',
+    flexDirection: 'row',
+    alignItems: 'center',
+    top: scale(40),
+    backgroundColor: '#32BA7C',
+    width: scale(282),
+    height: scale(60),
+    borderRadius: scale(15),
+    alignSelf: 'center',
+    justifyContent: 'center',
+  },
+  itemadd: {
+    ...theme.typography.common.h3r,
+    fontWeight: '500',
+    color: theme.palette.white,
+    marginLeft: scale(10),
+  },
+  buttonImage: {
+    width: scale(45),
+    height: scale(45),
+    backgroundColor: theme.palette.white,
+    borderRadius: scale(22.5),
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modelView: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(197,0,46,0.3)',
+  },
+  modalContent: {
+    backgroundColor: theme.palette.white,
+    padding: scale(15),
+    elevation: 5,
+    borderRadius: theme.radius.r3,
+    width: '75%',
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  modalHeading: {
+    fontSize: scale(16),
+    fontWeight: 'bold',
+    color: theme.palette.black,
+  },
+  modalClose: {
+    fontSize: scale(14),
+    fontWeight: 'bold',
+    color: theme.palette.PrimaryDeep,
+    paddingLeft: scale(25),
+    paddingBottom: scale(10),
+  },
+  modalCancel: {
+    fontSize: scale(14),
+    fontWeight: 'bold',
+    color: theme.palette.Graydesctxt,
+    paddingLeft: scale(25),
+    paddingBottom: scale(10),
+  },
+  modalMsg: {
+    fontSize: scale(14),
+    fontWeight: '500',
+    color: theme.palette.black,
+    marginTop: scale(10),
+  },
+});
+export default styles;

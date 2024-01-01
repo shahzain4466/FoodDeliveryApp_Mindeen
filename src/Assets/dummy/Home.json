@@ -1,0 +1,330 @@
+{
+  "categories": [
+    {
+      "name": "All",
+      "img": "https://source.unsplash.com/featured/300x203"
+    },
+    {
+      "name": "Pizza",
+      "img": "https://source.unsplash.com/featured/300x403"
+    },
+    {
+      "name": "Beverages",
+      "img": "https://source.unsplash.com/featured/300x202"
+    },
+    {
+      "name": "Beverages",
+      "img": "https://source.unsplash.com/featured/300x200"
+    },
+    {
+      "name": "Beverages",
+      "img": "https://source.unsplash.com/featured/300x273"
+    },
+    {
+      "name": "Asian",
+      "img": "https://source.unsplash.com/featured/300x203"
+    }
+  ],
+  "postData": [
+    {
+      "name": "Order Again",
+      "data": [
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        }
+      ]
+    },
+    {
+      "name": "Popular Restaurants",
+      "data": [
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        }
+      ]
+    },
+    {
+      "name": "New Arrivals",
+      "data": [
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        },
+        {
+          "rating": 4.5,
+          "numOfOrders": "25+",
+          "title": "McDonald’s",
+          "isFreeDelivery": true,
+          "time": "10-15 mins",
+          "menu": [
+            "Burger",
+            "Chicken",
+            "Fast Food"
+          ],
+          "hasLikeBtn": true,
+          "isLiked": true,
+          "restaurantImg": "https://source.unsplash.com/featured/800x500"
+        }
+      ]
+    }
+  ],
+  "item": {
+    "rating": 4.5,
+    "numOfOrders": "25+",
+    "title": "McDonald’s",
+    "isFreeDelivery": true,
+    "time": "10-15 mins",
+    "menu": [
+      "Burger",
+      "Chicken",
+      "Fast Food"
+    ],
+    "hasLikeBtn": true,
+    "isLiked": true,
+    "restaurantImg": "https://source.unsplash.com/featured/800x500"
+  }
+}
